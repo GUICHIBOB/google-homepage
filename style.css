@@ -1,0 +1,42 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo {
+    padding-top: 109px;
+    margin: 0 auto;
+}
+
+#searchbar{
+    margin: 25px auto;
+    
+}
+
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 12px;
+
+}
+
+.navlinks {
+    display: inline;
+    margin: 5px;
+    padding: 0px 3px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+.navbutton {
+    background-color: #4285f4;
+    color: white;
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    padding: 6px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
