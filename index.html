@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Google Mockup</title>
     <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
  </head>
  <body>
     <nav>
@@ -12,6 +14,7 @@
             <li class="navlinks"><a href="">Store</a></li>
             
             <li class="navlinks" style="float:right"><button class="navbutton">Sign In</button></li>
+            <li class="navlinks" style="float:right"><span class="material-icons-outlined">apps</span></li>
             <li class="navlinks" style="float:right"><a href="">Images</a></li>
             <li class="navlinks" style="float:right"><a href="">Gmail</a></li>
 
@@ -23,8 +26,24 @@
         src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
         
         <label for="searchbar"></label>
-        <input type="search" id="searchbar" name="searchbar" autofocus size="50px">
-        
+        <input type="search" id="searchbar" name="searchbar">
+        <div class="buttons">
+            <button type="button" class="search-button">Google Search</button>
+            <button type="button" class="search-button">I'm Feeling Lucky</button>
+        </div>
+
     </main>
+
+    <footer>
+        <ul class="footer">
+            <li class="footer-l"><a href="">Advertising</a></li>
+            <li class="footer-l"><a href="">Business</a></li>
+            <li class="footer-l"><a href="">How Search Works</a></li>
+            
+            <li class="footer-r" style="text-align:right"><a href="">Privacy</a></li>
+            <li class="footer-r" style="float:right"><a href="">Terms</a></li>
+            <li class="footer-r" style="float:right"><a href="">Settings</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
