@@ -2,6 +2,8 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width:100%;
+    margin: 0 auto;
 }
 
 .logo {
@@ -11,12 +13,16 @@ main{
 
 #searchbar{
     margin: 25px auto;
-    
+    height: 40px;
+    width: 30%;
+    border-radius: 25px;
+    border: 1px solid rgb(196, 196, 196);
+    outline: none;
 }
 
 .navbar{
     list-style-type: none;
-    margin: 0;
+    margin: 5px;
     padding: 12px;
 
 }
@@ -39,4 +45,51 @@ main{
     flex-direction: column;
     justify-content: center;
 
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.search-button {
+    margin: 20px 5px;
+	padding: 10px 20px;
+	text-align: center;
+	background-color: #f4f4f4;
+	color: #000000b6;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid #ddd;
+    background: #f2f2f2;
+    color: #70757a;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+.footer-l {
+    display: flex;
+    margin: 5px;
+    padding: 0px 3px;
+    display: block;
+    padding: 1rem 0 1rem 3rem;
+}
+
+.footer-r {
+    display: flex;
+    margin-right: 3rem;
+    display: block;
+    padding: 1rem 0 1rem 3rem;
 }
